@@ -1,13 +1,11 @@
 import React from 'react';
-import '../styles/components/Footer.scss'
+import styles from '../styles/components/Footer.module.scss';
 
-const Footer = () => {
-  return (
-    <div className='Footer'>
-      <p className='Footer-title'>PlatziPath</p>
-      <p className='Footer-copy'>Todos los derechos reservados</p>
-    </div>
-  );
-};
+const Footer = () => (
+  <div className={styles}>
+    <p>TheRezaga2</p>
+    <p>Todos los derechos reservados</p>
+  </div>
+);
 
 export default Footer;

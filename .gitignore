@@ -1,2 +1,15 @@
+# dependencies
 node_modules/
 dist/
+
+# firebase
+.firebase
+firebase/
+
+# local env files
+.env
+.env.build
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
