@@ -7,7 +7,7 @@ const Header = () => {
     <div className='Header'>
       <h1 className='Header-title'>
         <Link to='/'>PlatziPath</Link>
-      </h1>      
+      </h1>
     </div>
   );
 };
