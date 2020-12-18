@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/components/Header.module.scss';
+import styles from '../styles/components/Header.module.scss';
+
+
 
 const Header = () => (
-  <div className='Header'>
-    <h1 className='Header-title'>
-      <Link to='/'>PlatziPath</Link>
+  <div className={styles.Header}>
+    <h1 className={styles.HeaderTitle}>
+      <Link to='/'>THE REZAGA 2</Link>
     </h1>
   </div>
   );

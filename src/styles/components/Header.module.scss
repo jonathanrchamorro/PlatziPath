@@ -1,21 +1,10 @@
-.Header {
+
+.HeaderTitle{
   display: flex;
-  justify-content: space-between;
-}
-.Header-checkout {
-  display: flex;
-  justify-content: space-evenly;
+  background-color: #97c940;
+  margin: 0;
+  color: white;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
-  width: 30px;
-  margin: 0 0 0 0.5em;
-}
-.Header-alert {
-  color: #33b13a;
-  font-size: 14px;
-  margin-left: 5px;
-}
-.Header a {
-  text-decoration: none;
-  color: #33b1ff;
+  height: 10vh;
 }
