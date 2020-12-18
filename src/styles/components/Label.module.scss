@@ -1,0 +1,11 @@
+@import "../styles.module.scss";
+@import "../lib/variables.module";
+
+.Label {
+  font-weight: 400;
+  font-size: $light-small-text;
+  color: $color-secondary;
+
+}
+
+
