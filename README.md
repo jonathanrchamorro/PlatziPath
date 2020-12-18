@@ -1,6 +1,7 @@
 
 
-# PlatziPath
+HPM-Luis Sánchez-PlatziPath
+
 Acá va un párrafo que describa lo que es el proyecto
 
 Comenzando 🚀
