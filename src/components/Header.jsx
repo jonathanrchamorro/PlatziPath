@@ -7,7 +7,7 @@ import styles from '../styles/components/Header.module.scss';
 const Header = () => (
   <div className={styles.Header}>
     <h1 className={styles.HeaderTitle}>
-      <Link to='/'>THE REZAGA 2</Link>
+      <Link to='/'>PlatziPath</Link>
     </h1>
   </div>
   );
