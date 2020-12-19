@@ -1,48 +1,66 @@
 .Main {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    align-items: center;
     background: #f6f6f6;
     width: 1080px;
-    height: 600px;
+    height: 500px;
     top: 212px;
     left: 180px;
     border-radius: 10px;
+    gap: 10px;
+}
+
+.main h1{
+    grid-area: auto;
+    width: 100%;
 }
 
 .ContainerFront{
-    background: #f6f6f6;
-    width: 1080px;
-    height: 600px;
-    top: 212px;
-    left: 180px;
+    grid-area: 2;
+    display: flex;
+    background: #c4c4c4;
+    width: 325px;
+    height: 200px;
+    top: 326px;
+    left: 354px;
     border-radius: 10px;
 
 }
 
 .ContainerBack{
-    background: #f6f6f6;
-    width: 1080px;
-    height: 600px;
-    top: 212px;
-    left: 180px;
+    grid-area: 3;
+    display: flex;
+    background: #c4c4c4;
+    width: 325px;
+    height: 200px;
+    top: 326px;
+    left: 759px;
     border-radius: 10px;
 
 }
 
-.ContainerDatasience{
-    background: #f6f6f6;
-    width: 1080px;
-    height: 600px;
-    top: 212px;
-    left: 180px;
+.ContainerDatasaience{
+    display: flex;
+    grid-area: 4;
+    background: #c4c4c4;
+    width: 325px;
+    height: 200px;
+    top: 569px;
+    left: 354px;
     border-radius: 10px;
 
 }
 
 .ContainerUxUi{
-    background: #f6f6f6;
-    width: 1080px;
-    height: 600px;
-    top: 212px;
-    left: 180px;
+    grid-area: 5;
+    display: flex;
+    background: #c4c4c4;
+    width: 325px;
+    height: 200px;
+    top: 569px;
+    left: 759px;
     border-radius: 10px;
 }
 

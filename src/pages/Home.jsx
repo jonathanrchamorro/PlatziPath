@@ -6,6 +6,7 @@ import styles from '../styles/components/Home.module.scss'
 const Home =() => (
 
   <>
+    
     <div className={styles.Main}>
       <h1>Seleciona tú Interes</h1>
 
@@ -15,8 +16,8 @@ const Home =() => (
       </div>
 
       <div className={styles.ContainerBack}>
-        <img src="" alt="Backend" />
         <p>Un desarollador Backend es un programador que trabaja del lado del servidor. Permitiendo que todo lo que vemos cuando interactuamos con una aplicación o sitio web, funcione. ... Además de lenguajes de programación, el Backend necesita conocer las interacciones con diferentes bases de datos.</p>
+        <img src="" alt="Backend" />
       </div>
 
       <div className={styles.ContainerDatasaience}>
@@ -25,12 +26,14 @@ const Home =() => (
       </div>
 
       <div className={styles.ContainerUxUi}>
-        <img src="" alt="UX/UI" />
         <p>UX es lo qué te hace sentir una marca o producto al momento de interactuar con él, mientras que UI es una capa visual de colores, texturas, formas y elementos.</p>
+        <img src="" alt="UX/UI" />
       </div>
 
     </div>
+    
   </>
+  
   )
 
 export default Home;
