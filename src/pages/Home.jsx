@@ -3,13 +3,7 @@ import React from 'react';
 
 const Home = () => (
   <>
-    <h1>Hackathon 2020</h1>
-    {/* <Button      
-      type='submit'      
-      title='Iniciar sesion'
-    >
-      Empezar
-    </Button> */}
+    <h1>AQUI SELECCIONAR PRUEBAS</h1>
   </>
 );
 
