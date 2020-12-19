@@ -3,6 +3,7 @@ import styles from '../styles/components/Layout.module.scss';
 import Header from './Header';
 import Footer from './Footer';
 
+
 const Layout = ({ children }) => (
   <>
     <Header />
